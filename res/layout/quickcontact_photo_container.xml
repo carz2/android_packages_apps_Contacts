@@ -38,8 +38,8 @@
             android:layout_alignLeft="@id/photo"
             android:layout_alignRight="@id/photo"
             android:background="@color/call_detail_photo_bg" />
-        <ImageButton
-            android:id="@+id/open_details_button"
+        <ImageView
+            android:id="@+id/contact_details_image"
             android:src="@drawable/ic_contacts_holo_dark"
             android:contentDescription="@null"
             android:layout_height="wrap_content"
