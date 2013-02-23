@@ -572,6 +572,7 @@
     <string name="dialog_voicemail_airplane_mode_message" msgid="530922773669546093">"Para llamar al buzón de voz, debes desactivar el modo avión."</string>
     <string name="menu_export_database" msgid="2659719297530170820">"Exportar archivos de base de datos"</string>
     <string name="action_menu_overflow_description" msgid="2303272250613084574">"Más opciones"</string>
+    <string name="expand_collapse_name_fields_description" msgid="8682630859539604311">"Ampliar o contraer campos de nombre"</string>
 
     <!-- CYANOGENMOD ADDITIONS START -->
 
@@ -633,7 +634,4 @@
     </plurals>
 
     <!-- CYANOGENMOD ADDITIONS END -->
-
-    <string name="expand_collapse_name_fields_description" msgid="8682630859539604311">"Ampliar o contraer campos de nombre"</string>
-
 </resources>

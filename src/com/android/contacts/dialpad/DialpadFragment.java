@@ -329,6 +329,7 @@ public class DialpadFragment extends Fragment
         }
         mT9Flipper = (ViewSwitcher) fragmentView.findViewById(R.id.t9flipper);
         mT9Top = (LinearLayout) fragmentView.findViewById(R.id.t9topbar);
+
         PhoneNumberFormatter.setPhoneNumberFormattingTextWatcher(getActivity(), mDigits);
         // Check for the presence of the keypad
         View oneButton = fragmentView.findViewById(R.id.one);

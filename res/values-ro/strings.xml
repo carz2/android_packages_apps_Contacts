@@ -569,6 +569,7 @@
     <string name="dialog_voicemail_airplane_mode_message" msgid="530922773669546093">"Pentru a apela mesageria vocală, mai întâi dezactivaţi modul Avion."</string>
     <string name="menu_export_database" msgid="2659719297530170820">"Exportaţi fişierele bazei de date"</string>
     <string name="action_menu_overflow_description" msgid="2303272250613084574">"Mai multe opţiuni"</string>
+    <string name="expand_collapse_name_fields_description" msgid="8682630859539604311">"Extindeţi sau restrângeţi câmpurile pentru nume"</string>
 
     <string name="t9_loading">Încărcare\u2026</string>
     <string name="t9_sort_title">"Modul de sortare T9"</string>
@@ -583,7 +584,4 @@
     <string name="dialer_ui_title">"Setări tast. numerică"</string>
     <string name="dialer_ui_orientation_title">"Activaţi orientarea după senzor"</string>
     <string name="dialer_ui_orientation_summary">"Rotiţi tast. numerică bazat pe senzor"</string>
-
-    <string name="expand_collapse_name_fields_description" msgid="8682630859539604311">"Extindeţi sau restrângeţi câmpurile pentru nume"</string>
-
 </resources>

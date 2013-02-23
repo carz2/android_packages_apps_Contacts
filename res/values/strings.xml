@@ -1886,6 +1886,13 @@ connection to the voicemail server is lost. [CHAR LIMIT=64] -->
          overflow button available in ActionBar.
          [CHAR LIMIT=NONE] -->
     <string name="action_menu_overflow_description" msgid="2295659037509008453">More options</string>
+    <!-- Content description for the expand or collapse name fields button.
+         Clicking this button causes the name editor to toggle between showing
+         a single field where the entire name is edited at once, or multiple
+         fields corresponding to each part of the name (Name Prefix, First Name,
+         Middle Name, Last Name, Name Suffix).
+         [CHAR LIMIT=NONE] -->
+    <string name="expand_collapse_name_fields_description">Expand or collapse name fields</string>
 
     <string name="call_stats_nav_all">All</string>
     <string name="call_stats_nav_incoming">Incoming</string>
@@ -1900,6 +1907,15 @@ connection to the voicemail server is lost. [CHAR LIMIT=64] -->
     <string name="call_stats_filter_from">Start date</string>
     <string name="call_stats_filter_to">End date</string>
     <string name="call_stats_filter_picker_title">Filter range</string>
+
+    <string name="date_quick_selection">Quick selection</string>
+    <string name="date_qs_currentmonth">Current month</string>
+    <string name="date_qs_currentquarter">Current quarter</string>
+    <string name="date_qs_currentyear">Current year</string>
+    <string name="date_qs_lastweek">Last week</string>
+    <string name="date_qs_lastmonth">Last month</string>
+    <string name="date_qs_lastquarter">Last quarter</string>
+    <string name="date_qs_lastyear">Last year</string>
 
     <string name="call_stats_date_filter">Adjust time range</string>
     <string name="call_stats_reset_filter">Reset time range</string>
@@ -1921,7 +1937,7 @@ connection to the voicemail server is lost. [CHAR LIMIT=64] -->
         <item><xliff:g id="hours" example="2 hrs">%1$s</xliff:g></item>
         <item><xliff:g id="hours" example="2 hrs">%1$s</xliff:g> <xliff:g id="seconds" example="2 secs">%3$s</xliff:g></item>
         <item><xliff:g id="hours" example="2 hrs">%1$s</xliff:g> <xliff:g id="minutes" example="2 mins">%2$s</xliff:g></item>
-         <item><xliff:g id="hours" example="2 hrs">%1$s</xliff:g> <xliff:g id="minutes" example="2 mins">%2$s</xliff:g> <xliff:g id="seconds" example="2 secs">%3$s</xliff:g></item>
+        <item><xliff:g id="hours" example="2 hrs">%1$s</xliff:g> <xliff:g id="minutes" example="2 mins">%2$s</xliff:g> <xliff:g id="seconds" example="2 secs">%3$s</xliff:g></item>
     </string-array>
 
     <plurals name="hour">
@@ -1941,13 +1957,5 @@ connection to the voicemail server is lost. [CHAR LIMIT=64] -->
         <item quantity="one">1 call</item>
         <item quantity="other">%d calls</item>
     </plurals>
-
-    <!-- Content description for the expand or collapse name fields button.
-         Clicking this button causes the name editor to toggle between showing
-         a single field where the entire name is edited at once, or multiple
-         fields corresponding to each part of the name (Name Prefix, First Name,
-         Middle Name, Last Name, Name Suffix).
-         [CHAR LIMIT=NONE] -->
-    <string name="expand_collapse_name_fields_description">Expand or collapse name fields</string>
 
 </resources>

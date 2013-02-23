@@ -569,6 +569,8 @@
     <string name="dialog_voicemail_airplane_mode_message" msgid="530922773669546093">"Deaktivieren Sie zunächst den Flugmodus, um die Mailbox anzurufen."</string>
     <string name="menu_export_database" msgid="2659719297530170820">"Datenbankdateien exportieren"</string>
     <string name="action_menu_overflow_description" msgid="2303272250613084574">"Mehr Optionen"</string>
+    <string name="expand_collapse_name_fields_description" msgid="8682630859539604311">"Namensfelder maximieren oder minimieren"</string>
+
     <string name="t9_loading">Lade Kontakte\u2026</string>
     <string name="t9_sort_title">T9-Sortierung</string>
     <string name="t9_sort_summary">Reihenfolge der T9-Resultate auswählen</string>
@@ -603,6 +605,16 @@
     <string name="call_stats_reset_filter">Datumsbereich zurücksetzen</string>
     <string name="call_stats_sort_by_duration">Nach Anrufdauer sortieren</string>
     <string name="call_stats_sort_by_count">Nach Anrufanzahl sortieren</string>
+
+    <string name="date_quick_selection">Schnellauswahl</string>
+    <string name="date_qs_currentmonth">Aktueller Monat</string>
+    <string name="date_qs_currentquarter">Aktuelles Quartal</string>
+    <string name="date_qs_currentyear">Aktuelles Jahr</string>
+    <string name="date_qs_lastweek">Letzte Woche</string>
+    <string name="date_qs_lastmonth">Letzter Monat</string>
+    <string name="date_qs_lastquarter">Letztes Quartal</string>
+    <string name="date_qs_lastyear">Letztes Jahr</string>
+
     <plurals name="call">
         <item quantity="one">1 Anruf</item>
         <item quantity="other">%d Anrufe</item>
@@ -630,7 +642,4 @@
         <item quantity="one">1 Sekunde</item>
         <item quantity="other">%d Sekunden</item>
     </plurals>
-
-    <string name="expand_collapse_name_fields_description" msgid="8682630859539604311">"Namensfelder maximieren oder minimieren"</string>
-
 </resources>
